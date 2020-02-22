@@ -1,0 +1,27 @@
+{
+  "name": "vue-auto-global-components",
+  "version": "1.0.0",
+  "description": "Autoloader for global vue components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/may17/vue-auto-global-components.git"
+  },
+  "keywords": [
+    "vue",
+    "global components",
+    "autoloader"
+  ],
+  "author": "Joe Ray Gregory <hello@jgreg.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/may17/vue-auto-global-components/issues"
+  },
+  "homepage": "https://github.com/may17/vue-auto-global-components#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
