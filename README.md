@@ -39,3 +39,16 @@ components/
             G-UnsoretedList.vue
 ...
 ```
+
+## Troublespots
+
+### Nuxt returns error Missing stack frames
+This problem could came up if you work in nuxt dev mode with mode universal. You can easily avoid that problem by defining your plugin file as not handled as ssr.
+
+```javascript
+// nuxt.config.js
+export default {
+  plugins: [
+    { ssr: false, src: '~plugins/myJsFileWhereTheLoaderIsRegistered.js' }
+  ]
+```
